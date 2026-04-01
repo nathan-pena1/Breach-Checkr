@@ -29,7 +29,7 @@ pip install requests
 ## How to Run:
 Pass the password(s) you want to check as command-line arguments:
 ```
-python3 breach-check.py yourpassword
+python3 breach-checkr.py yourpassword
 ```
 ##  Future Improvements:
 [ ] Integration of the getpass module to hide password typing in the terminal.
