@@ -32,6 +32,6 @@ def main(passwords):
         count = api_data_check(hashed_password)
         print(f'Your password: \"{password}\" has appeared in a data leak {count} times.')
 
-print('\nWelcome to PasswordScanner - The most secure way to check for password leaks.\n')
-if '__name__' == '__main__':
+print('\nWelcome to Breach-Checkr - The most secure way to check for password leaks.\n')
+if __name__ == '__main__':
     sys.exit(main(sys.argv[1:]))
